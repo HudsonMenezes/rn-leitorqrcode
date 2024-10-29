@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'rnleitorqrcode'
+rootProject.name = 'rn-leitorqrcode'
 
 dependencyResolutionManagement {
   versionCatalogs {

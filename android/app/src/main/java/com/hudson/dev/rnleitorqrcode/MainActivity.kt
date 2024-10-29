@@ -1,4 +1,4 @@
-package com.rnleitorqrcode
+package com.hudson.dev.rnleitorqrcode
 
 import android.os.Build
 import android.os.Bundle

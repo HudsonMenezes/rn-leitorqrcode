@@ -2,6 +2,23 @@
   "expo": {
     "name": "rn-leitorqrcode",
     "slug": "rn-leitorqrcode",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.hudson.dev.rnleitorqrcode"
+    }
   }
 }

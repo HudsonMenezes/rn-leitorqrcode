@@ -1,4 +1,4 @@
-package com.rnleitorqrcode
+package com.hudson.dev.rnleitorqrcode
 
 import android.app.Application
 import android.content.res.Configuration
